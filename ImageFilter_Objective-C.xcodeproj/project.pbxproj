@@ -13,7 +13,39 @@
 		4F5063B71F4FB2BA00E1B80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5063B51F4FB2BA00E1B80C /* Main.storyboard */; };
 		4F5063B91F4FB2BA00E1B80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5063B81F4FB2BA00E1B80C /* Assets.xcassets */; };
 		4F5063BC1F4FB2BA00E1B80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5063BA1F4FB2BA00E1B80C /* LaunchScreen.storyboard */; };
+		4F5063F61F4FB8DC00E1B80C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5063F51F4FB8DC00E1B80C /* CoreMedia.framework */; };
+		4F5063F81F4FB8E500E1B80C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5063F71F4FB8E500E1B80C /* CoreVideo.framework */; };
+		4F5063FA1F4FB8EE00E1B80C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5063F91F4FB8EE00E1B80C /* OpenGLES.framework */; };
+		4F5063FC1F4FB8F600E1B80C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5063FB1F4FB8F600E1B80C /* AVFoundation.framework */; };
+		4F5063FE1F4FB8FF00E1B80C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5063FD1F4FB8FF00E1B80C /* QuartzCore.framework */; };
+		4F5064021F4FBCA300E1B80C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5064011F4FBCA300E1B80C /* TableViewController.m */; };
+		4F5064041F4FC07A00E1B80C /* IMG_1108.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5064031F4FC07A00E1B80C /* IMG_1108.jpg */; };
+		4F5064111F4FD86D00E1B80C /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F50640C1F4FD85A00E1B80C /* libGPUImage.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F50640B1F4FD85A00E1B80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F5064051F4FD85A00E1B80C /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		4F50640D1F4FD85A00E1B80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F5064051F4FD85A00E1B80C /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		4F50640F1F4FD86500E1B80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F5064051F4FD85A00E1B80C /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF1A33314DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4F5063A91F4FB2BA00E1B80C /* ImageFilter_Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageFilter_Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +58,15 @@
 		4F5063B81F4FB2BA00E1B80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F5063BB1F4FB2BA00E1B80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F5063BD1F4FB2BA00E1B80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F5063F51F4FB8DC00E1B80C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4F5063F71F4FB8E500E1B80C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4F5063F91F4FB8EE00E1B80C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4F5063FB1F4FB8F600E1B80C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4F5063FD1F4FB8FF00E1B80C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4F5064001F4FBCA300E1B80C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		4F5064011F4FBCA300E1B80C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		4F5064031F4FC07A00E1B80C /* IMG_1108.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1108.jpg; sourceTree = "<group>"; };
+		4F5064051F4FD85A00E1B80C /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = framework/GPUImage.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F5064111F4FD86D00E1B80C /* libGPUImage.a in Frameworks */,
+				4F5063FE1F4FB8FF00E1B80C /* QuartzCore.framework in Frameworks */,
+				4F5063FC1F4FB8F600E1B80C /* AVFoundation.framework in Frameworks */,
+				4F5063FA1F4FB8EE00E1B80C /* OpenGLES.framework in Frameworks */,
+				4F5063F81F4FB8E500E1B80C /* CoreVideo.framework in Frameworks */,
+				4F5063F61F4FB8DC00E1B80C /* CoreMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +91,7 @@
 			children = (
 				4F5063AB1F4FB2BA00E1B80C /* ImageFilter_Objective-C */,
 				4F5063AA1F4FB2BA00E1B80C /* Products */,
+				4F5063F41F4FB8DC00E1B80C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +106,18 @@
 		4F5063AB1F4FB2BA00E1B80C /* ImageFilter_Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				4F5064031F4FC07A00E1B80C /* IMG_1108.jpg */,
 				4F5063AF1F4FB2BA00E1B80C /* AppDelegate.h */,
 				4F5063B01F4FB2BA00E1B80C /* AppDelegate.m */,
 				4F5063B21F4FB2BA00E1B80C /* ViewController.h */,
 				4F5063B31F4FB2BA00E1B80C /* ViewController.m */,
+				4F5064001F4FBCA300E1B80C /* TableViewController.h */,
+				4F5064011F4FBCA300E1B80C /* TableViewController.m */,
 				4F5063B51F4FB2BA00E1B80C /* Main.storyboard */,
 				4F5063B81F4FB2BA00E1B80C /* Assets.xcassets */,
 				4F5063BA1F4FB2BA00E1B80C /* LaunchScreen.storyboard */,
 				4F5063BD1F4FB2BA00E1B80C /* Info.plist */,
+				4F5064051F4FD85A00E1B80C /* GPUImage.xcodeproj */,
 				4F5063AC1F4FB2BA00E1B80C /* Supporting Files */,
 			);
 			path = "ImageFilter_Objective-C";
@@ -77,6 +129,27 @@
 				4F5063AD1F4FB2BA00E1B80C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F5063F41F4FB8DC00E1B80C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F5063FD1F4FB8FF00E1B80C /* QuartzCore.framework */,
+				4F5063FB1F4FB8F600E1B80C /* AVFoundation.framework */,
+				4F5063F91F4FB8EE00E1B80C /* OpenGLES.framework */,
+				4F5063F71F4FB8E500E1B80C /* CoreVideo.framework */,
+				4F5063F51F4FB8DC00E1B80C /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F5064061F4FD85A00E1B80C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F50640C1F4FD85A00E1B80C /* libGPUImage.a */,
+				4F50640E1F4FD85A00E1B80C /* GPUImage.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +166,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4F5064101F4FD86500E1B80C /* PBXTargetDependency */,
 			);
 			name = "ImageFilter_Objective-C";
 			productName = "ImageFilter_Objective-C";
@@ -126,6 +200,12 @@
 			mainGroup = 4F5063A01F4FB2BA00E1B80C;
 			productRefGroup = 4F5063AA1F4FB2BA00E1B80C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4F5064061F4FD85A00E1B80C /* Products */;
+					ProjectRef = 4F5064051F4FD85A00E1B80C /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4F5063A81F4FB2BA00E1B80C /* ImageFilter_Objective-C */,
@@ -133,12 +213,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		4F50640C1F4FD85A00E1B80C /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 4F50640B1F4FD85A00E1B80C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F50640E1F4FD85A00E1B80C /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 4F50640D1F4FD85A00E1B80C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		4F5063A71F4FB2BA00E1B80C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4F5063BC1F4FB2BA00E1B80C /* LaunchScreen.storyboard in Resources */,
+				4F5064041F4FC07A00E1B80C /* IMG_1108.jpg in Resources */,
 				4F5063B91F4FB2BA00E1B80C /* Assets.xcassets in Resources */,
 				4F5063B71F4FB2BA00E1B80C /* Main.storyboard in Resources */,
 			);
@@ -154,10 +252,19 @@
 				4F5063B41F4FB2BA00E1B80C /* ViewController.m in Sources */,
 				4F5063B11F4FB2BA00E1B80C /* AppDelegate.m in Sources */,
 				4F5063AE1F4FB2BA00E1B80C /* main.m in Sources */,
+				4F5064021F4FBCA300E1B80C /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F5064101F4FD86500E1B80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			targetProxy = 4F50640F1F4FD86500E1B80C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4F5063B51F4FB2BA00E1B80C /* Main.storyboard */ = {
@@ -276,6 +383,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YVF9H2RDX9;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/framework/Source",
+					"${PROJECT_DIR}/framework/Source/iOS",
+				);
 				INFOPLIST_FILE = "ImageFilter_Objective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gregory.ImageFilter-Objective-C";
@@ -288,6 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YVF9H2RDX9;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/framework/Source",
+					"${PROJECT_DIR}/framework/Source/iOS",
+				);
 				INFOPLIST_FILE = "ImageFilter_Objective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gregory.ImageFilter-Objective-C";

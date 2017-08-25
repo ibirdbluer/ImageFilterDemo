@@ -7,8 +7,12 @@
 //
 
 #import "TableViewController.h"
+#import "TableViewController.h"
 
-@interface TableViewController ()
+@interface TableViewController () {
+    NSArray *titles;
+    TableViewController *vc;
+}
 
 @end
 
@@ -17,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    titles = [NSArray arrayWithObjects:@"Saturation", @"Contrast", @"Sepia", @"Pixellate", @"Polar Pixellate", @"Pixellate position", @"Polka Dot", nil];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -29,27 +34,40 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    vc = segue.destinationViewController;
+}
+
+- (void)performSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+
+    return titles.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
-    // Configure the cell...
+    cell.textLabel.text = titles[indexPath.row];
     
     return cell;
 }
-*/
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSString *selectedTitle = titles[indexPath.row];
+    vc.title = selectedTitle;
+}
+
 
 /*
 // Override to support conditional editing of the table view.
