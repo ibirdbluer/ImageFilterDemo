@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F5063AE1F4FB2BA00E1B80C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5063AD1F4FB2BA00E1B80C /* main.m */; };
+		4F5063B11F4FB2BA00E1B80C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5063B01F4FB2BA00E1B80C /* AppDelegate.m */; };
+		4F5063B41F4FB2BA00E1B80C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5063B31F4FB2BA00E1B80C /* ViewController.m */; };
+		4F5063B71F4FB2BA00E1B80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5063B51F4FB2BA00E1B80C /* Main.storyboard */; };
+		4F5063B91F4FB2BA00E1B80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5063B81F4FB2BA00E1B80C /* Assets.xcassets */; };
+		4F5063BC1F4FB2BA00E1B80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5063BA1F4FB2BA00E1B80C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F5063A91F4FB2BA00E1B80C /* ImageFilter_Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageFilter_Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5063AD1F4FB2BA00E1B80C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F5063AF1F4FB2BA00E1B80C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F5063B01F4FB2BA00E1B80C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F5063B21F4FB2BA00E1B80C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F5063B31F4FB2BA00E1B80C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F5063B61F4FB2BA00E1B80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F5063B81F4FB2BA00E1B80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F5063BB1F4FB2BA00E1B80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F5063BD1F4FB2BA00E1B80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5063A61F4FB2BA00E1B80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F5063A01F4FB2BA00E1B80C = {
+			isa = PBXGroup;
+			children = (
+				4F5063AB1F4FB2BA00E1B80C /* ImageFilter_Objective-C */,
+				4F5063AA1F4FB2BA00E1B80C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F5063AA1F4FB2BA00E1B80C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F5063A91F4FB2BA00E1B80C /* ImageFilter_Objective-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5063AB1F4FB2BA00E1B80C /* ImageFilter_Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				4F5063AF1F4FB2BA00E1B80C /* AppDelegate.h */,
+				4F5063B01F4FB2BA00E1B80C /* AppDelegate.m */,
+				4F5063B21F4FB2BA00E1B80C /* ViewController.h */,
+				4F5063B31F4FB2BA00E1B80C /* ViewController.m */,
+				4F5063B51F4FB2BA00E1B80C /* Main.storyboard */,
+				4F5063B81F4FB2BA00E1B80C /* Assets.xcassets */,
+				4F5063BA1F4FB2BA00E1B80C /* LaunchScreen.storyboard */,
+				4F5063BD1F4FB2BA00E1B80C /* Info.plist */,
+				4F5063AC1F4FB2BA00E1B80C /* Supporting Files */,
+			);
+			path = "ImageFilter_Objective-C";
+			sourceTree = "<group>";
+		};
+		4F5063AC1F4FB2BA00E1B80C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F5063AD1F4FB2BA00E1B80C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F5063A81F4FB2BA00E1B80C /* ImageFilter_Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5063C01F4FB2BA00E1B80C /* Build configuration list for PBXNativeTarget "ImageFilter_Objective-C" */;
+			buildPhases = (
+				4F5063A51F4FB2BA00E1B80C /* Sources */,
+				4F5063A61F4FB2BA00E1B80C /* Frameworks */,
+				4F5063A71F4FB2BA00E1B80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageFilter_Objective-C";
+			productName = "ImageFilter_Objective-C";
+			productReference = 4F5063A91F4FB2BA00E1B80C /* ImageFilter_Objective-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F5063A11F4FB2BA00E1B80C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Gregory Qian";
+				TargetAttributes = {
+					4F5063A81F4FB2BA00E1B80C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YVF9H2RDX9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F5063A41F4FB2BA00E1B80C /* Build configuration list for PBXProject "ImageFilter_Objective-C" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F5063A01F4FB2BA00E1B80C;
+			productRefGroup = 4F5063AA1F4FB2BA00E1B80C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F5063A81F4FB2BA00E1B80C /* ImageFilter_Objective-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5063A71F4FB2BA00E1B80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5063BC1F4FB2BA00E1B80C /* LaunchScreen.storyboard in Resources */,
+				4F5063B91F4FB2BA00E1B80C /* Assets.xcassets in Resources */,
+				4F5063B71F4FB2BA00E1B80C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5063A51F4FB2BA00E1B80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5063B41F4FB2BA00E1B80C /* ViewController.m in Sources */,
+				4F5063B11F4FB2BA00E1B80C /* AppDelegate.m in Sources */,
+				4F5063AE1F4FB2BA00E1B80C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F5063B51F4FB2BA00E1B80C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5063B61F4FB2BA00E1B80C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F5063BA1F4FB2BA00E1B80C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5063BB1F4FB2BA00E1B80C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F5063BE1F4FB2BA00E1B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F5063BF1F4FB2BA00E1B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F5063C11F4FB2BA00E1B80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVF9H2RDX9;
+				INFOPLIST_FILE = "ImageFilter_Objective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gregory.ImageFilter-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F5063C21F4FB2BA00E1B80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVF9H2RDX9;
+				INFOPLIST_FILE = "ImageFilter_Objective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gregory.ImageFilter-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5063A41F4FB2BA00E1B80C /* Build configuration list for PBXProject "ImageFilter_Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5063BE1F4FB2BA00E1B80C /* Debug */,
+				4F5063BF1F4FB2BA00E1B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5063C01F4FB2BA00E1B80C /* Build configuration list for PBXNativeTarget "ImageFilter_Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5063C11F4FB2BA00E1B80C /* Debug */,
+				4F5063C21F4FB2BA00E1B80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F5063A11F4FB2BA00E1B80C /* Project object */;
+}
